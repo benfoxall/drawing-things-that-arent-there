@@ -109,6 +109,10 @@ private@~0.1.5:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.7.tgz#68ce5e8a1ef0a23bb570cc28537b5332aba63ef1"
 
+quaternion@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/quaternion/-/quaternion-2.0.0.tgz#ce1b16d99b3d6e27a49dc5c4942e66092caf7b83"
+
 "readable-stream@>=1.0.33-1 <1.1.0-0":
   version "1.0.34"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-1.0.34.tgz#125820e34bc842d2f2aaafafe4c2916ee32c157c"
