@@ -114,6 +114,10 @@
             <h2>[x, y, z]</h2>
           </section>
 
+          <section id="populate-draw">
+
+          </section>
+
           <section id="populate">
             <table>
               <tr>
@@ -430,6 +434,11 @@ gl.useProgram(program)
           </section>
 
           <section>
+            <h1>gpu: -1, 1</h1>
+            <h2>real world: …</h2>
+          </section>
+
+          <section>
             <h1>[maths gif]</h1>
           </section>
 
@@ -473,7 +482,6 @@ gl.useProgram(program)
             <h1>Uniforms</h1>
           </section>
 
-
           <section id="render-2">
             <h4 class="over">Result</h4>
           </section>
@@ -493,11 +501,11 @@ gl.useProgram(program)
           </section>
 
           <section>
-            [lighting diagram]
+            <h1>[lighting diagram]</h1>
           </section>
 
           <section>
-            Normals
+            <h1>Normals</h1>
           </section>
 
           <section id="render-3">
@@ -515,15 +523,40 @@ gl.useProgram(program)
     <script src="lib/reveal.js/js/reveal.js"></script>
     <script src="lib/slide-builder.js"></script>
     <script src="lib/localforage.js"></script>
+    <script src="lib/quaternion.js"></script>
     <script src="lib/gl-matrix.js"></script>
 
+    <script src="http://localhost:9000/peer.js"></script>
+    <script src="http://localhost:9000/remoteVR.js"></script>
+
+    <script type="text/javascript">
+
+      //
+      const peer = new Peer({
+        host: 'localhost', port: 9000, path: '/peer'
+      })
+
+      peer.on('open', () => console.log(`Signalling: Connected as ${peer.id}`))
+      peer.on('error', () => console.log('Signalling: Error'))
+      peer.on('disconnected', () => console.log('Signalling: DISCONNECTED'))
+
+      const conn = peer.connect('ff')
+
+      remoteVR.connect(conn)
+
+    </script>
     <script>
+
       Reveal.initialize({
         controls: false,
         progress: false,
         history: true,
         center: true,
         margin: 0,
+
+        // MKGN
+        width: 1024,
+        height: 768,
 
         transition: 'slide',
 
@@ -532,6 +565,13 @@ gl.useProgram(program)
             src: 'lib/reveal.js/plugin/highlight/highlight.js',
             async: true,
             callback: function() { hljs.initHighlightingOnLoad() }
+          },
+
+          {
+            src: 'scripts/populate-draw.js',
+            callback: () => {
+              new PopulateDrawSlide('#populate-draw')
+            }
           },
 
           {

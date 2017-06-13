@@ -1,13 +1,24 @@
 const stubGamepad = (() => {
+
+  return () => {
+      const gamepad = remoteVR.getGamepads()[0]
+      if(gamepad && gamepad.pose) {
+        return gamepad.pose.position
+      } else {
+        return [-1,-1,-1]
+      }
+  }
+
+
   let x = 0, y = 0, z = 0
   let xv = Math.random(), yv = Math.random(), zv = Math.random()
-
   return () => {
     if(Math.random() < 0.01) {xv += Math.random() - .5} if(Math.random() < 0.01) {yv += Math.random() - .5} if(Math.random() < 0.01) {zv += Math.random() - .5}
     xv *= 0.9; yv *= 0.9; zv *= 0.9; x *= 0.97; y *= 0.97; z *= 0.97; x += xv; y += yv; z += zv;
 
     return [x, y, z]
   }
+
 })()
 
 
@@ -27,47 +38,47 @@ class PopulateSlide {
 
 
 
-    const colorData = []
-
-
-    function appendColor(i, color) {
-
-      const row = rows[i]
-
-      const [r,g,b] = Array.from({length: 3}, _ => {
-        const td = document.createElement('td')
-        td.className = 'c'
-        td.style.color = color
-        row.appendChild(td)
-        return td
-      })
-
-      const rgb = getComputedStyle(r).color.match(/(\d+), (\d+), (\d+)/)
-      r.innerText = format(rgb[1] / 255)
-      g.innerText = format(rgb[2] / 255)
-      b.innerText = format(rgb[3] / 255)
-
-      colorData[i*3] = rgb[1] / 255
-      colorData[i*3 + 1] = rgb[2] / 255
-      colorData[i*3 + 2] = rgb[3] / 255
-    }
-
-
-
-    appendColor(0, '#8610FA')
-    appendColor(1, '#FA8610')
-    appendColor(2, '#10FA86')
-
-    appendColor(3, '#4ab0cc')
-    appendColor(4, '#4ab0cc')
-    appendColor(5, '#4ab0cc')
-
-    appendColor(6, '#ff5792')
-    appendColor(7, '#ff5792')
-    appendColor(8, '#ff5792')
-
-    console.log(colorData)
-    localforage.setItem('colors', colorData)
+    // const colorData = []
+    //
+    //
+    // function appendColor(i, color) {
+    //
+    //   const row = rows[i]
+    //
+    //   const [r,g,b] = Array.from({length: 3}, _ => {
+    //     const td = document.createElement('td')
+    //     td.className = 'c'
+    //     td.style.color = color
+    //     row.appendChild(td)
+    //     return td
+    //   })
+    //
+    //   const rgb = getComputedStyle(r).color.match(/(\d+), (\d+), (\d+)/)
+    //   r.innerText = format(rgb[1] / 255)
+    //   g.innerText = format(rgb[2] / 255)
+    //   b.innerText = format(rgb[3] / 255)
+    //
+    //   colorData[i*3] = rgb[1] / 255
+    //   colorData[i*3 + 1] = rgb[2] / 255
+    //   colorData[i*3 + 2] = rgb[3] / 255
+    // }
+    //
+    //
+    //
+    // appendColor(0, '#8610FA')
+    // appendColor(1, '#FA8610')
+    // appendColor(2, '#10FA86')
+    //
+    // appendColor(3, '#4ab0cc')
+    // appendColor(4, '#4ab0cc')
+    // appendColor(5, '#4ab0cc')
+    //
+    // appendColor(6, '#ff5792')
+    // appendColor(7, '#ff5792')
+    // appendColor(8, '#ff5792')
+    //
+    // console.log(colorData)
+    // localforage.setItem('colors', colorData)
 
 
     // normals
@@ -127,27 +138,29 @@ class PopulateSlide {
     let raf
 
 
-    const poll = () => {
-      raf = requestAnimationFrame(poll)
-      if(!current) return
-      if(current_i < 0) return
-
-      var d = stubGamepad()
-
-      data[current_i * 3 + 0] = d[0]
-      data[current_i * 3 + 1] = d[1]
-      data[current_i * 3 + 2] = d[2]
-
-      render()
-    }
-
+    let stop_polling;
 
     new SlideBuilder(this.el)
       .shown(() => {
-        raf = requestAnimationFrame(poll)
+        stop_polling = false
+        const poll = () => {
+          if(stop_polling) return
+          requestAnimationFrame(poll)
+          if(!current) return
+          if(current_i < 0) return
+
+          var d = stubGamepad()
+
+          data[current_i * 3 + 0] = d[0]
+          data[current_i * 3 + 1] = d[1]
+          data[current_i * 3 + 2] = d[2]
+
+          render()
+        }
+        poll()
       })
       .hidden(() => {
-        cancelAnimationFrame(raf)
+        stop_polling = true
       })
       .fragments(
         Array.from(this.rows)
@@ -166,9 +179,11 @@ class PopulateSlide {
 
             localforage.setItem('points', data)
             calculateNormals()
-          },() => {
-            table.classList.add('show-colors')
           }
+
+          // ,() => { table.classList.add('show-colors') }
+
+
         ])
 
       )
@@ -177,6 +192,7 @@ class PopulateSlide {
 
 
 
+// https://github.com/hughsk/triangle-normal
 function triangleNormal(x0, y0, z0, x1, y1, z1, x2, y2, z2, output) {
   if (!output) output = []
 
