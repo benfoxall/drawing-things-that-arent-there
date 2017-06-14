@@ -23,16 +23,15 @@
       <div class="slides">
 
         <section>
-          <h1>Setup: todo</h1>
-        </section>
-
-        <section>
           <h1>Drawing things that aren't there</h1>
         </section>
 
         <section>
           <section>
-            <h1>🎂</h1>
+            <h1>…</h1>
+          </section>
+          <section>
+            <h1>#HBGN</h1>
           </section>
           <section>
             <h1>Hello,</h1>
@@ -49,47 +48,6 @@
         </section>
 
         <section>
-          <section>
-            <h1>Microhacks &amp; Creativity</h1>
-          </section>
-          <section>
-            <h1>[google cardboard]</h1>
-          </section>
-          <section>
-            <h2>[cardboctober.xyz]</h2>
-          </section>
-          <section>
-            <h2>[webgl-hacks]</h2>
-          </section>
-          <section>
-            <h1>Key points</h1>
-            <h2>Exploritory - things look different</h2>
-            <h2>Clear output - a defined way of being done</h2>
-          </section>
-          <!-- <section>
-            <h1>Optimised making stuff</h1>
-          </section>
-          <section>
-            <h2>1/ have a place to output</h2>
-            <h2>2/ do rubbish stuff</h2>
-            <h2>3/ practice</h2>
-          </section>
-          <section>
-            <h1>What is creativity?</h1>
-          </section> -->
-          <section>
-            <h2>[adventure collective]</h2>
-          </section>
-          <section>
-            <h3>lanterns</h3>
-          </section>
-        </section>
-
-
-        <section>
-          <section>
-            <h2>[THE ACTUAL TALK]</h2>
-          </section>
 
           <section>
             <h3>Let's draw something that isn't here</h3>
@@ -176,8 +134,16 @@ ctx.stroke()
             <!-- CPU - works kind of like how you'd think a program exectutes, plus lots of other stuff -->
           </section>
           <section>
-            <h2>Graphics Pipeline</h2>
+            <h2>CPU - multiple cores</h2>
+            <h2>GPU - loads of cores</h2>
           </section>
+
+          <section>
+            <h2>CPU - code</h2>
+            <h2>GPU - pipeline</h2>
+          </section>
+
+
           <section>
             <h3>WebGL</h3>
             <!-- <code><pre>gl.compileShader(vertex_shader)
@@ -512,7 +478,151 @@ gl.useProgram(program)
 
           </section>
 
+        </section>
 
+        <section>
+          <section>
+            <h1>Stuff we covered</h1>
+            <h3>Gathering data</h3>
+            <h3>Drawing points</h3>
+            <h3>Transforming positions</h3>
+            <h3>Lighting &amp; Shaders</h3>
+          </section>
+        </section>
+
+        <section>
+
+          <section>
+            <h1>…But<span class="fragment">, so what?</span></h1>
+          </section>
+
+          <section>
+            <h1>WebVR</h1>
+          </section>
+
+          <section>
+            <h2>navigator.getVRDisplays()</h2>
+            <h4>// [VRDisplay]</h4>
+          </section>
+
+          <section>
+            <h2>display.getFrameData()</h2>
+            <h4>// {…, pose: {position: […], orientation: […]}}</h4>
+          </section>
+
+          <section>
+            <h2>display.requestPresent(<br/>&nbsp;&nbsp;[{ source: canvas }]<br/>)</h2>
+          </section>
+
+          <section>
+            <pre><code data-trim>
+              &lt;button onclick="launchVR()"&gt;Enter VR&lt;/a&gt;
+            </code></pre>
+          </section>
+
+          <section>
+            <h1>Support</h1>
+            <h2>(not just Vive)</h2>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>What is cool content</h1>
+          </section>
+          <section>
+            <h1>Tiltbrush</h1>
+          </section>
+          <section>
+            <h1>Visualisation</h1>
+          </section>
+          <section>
+            <h1>Memory</h1>
+          </section>
+          <section>
+            <h1>Empathy</h1>
+          </section>
+        </section>
+
+
+        <section>
+          <section>
+            <h1>Building your own virtual things</h1>
+          </section>
+          <section>
+            <h3>(you don't have to write shaders)</h3>
+          </section>
+          <section>
+            <h1>THREE.js</h1>
+          </section>
+          <section>
+            <h1>react-vr</h1>
+          </section>
+          <section>
+            <h1>a-frame</h1>
+          </section>
+        </section>
+
+
+
+
+        <section>
+          <section>
+            <h1>Microhacks &amp; Creativity</h1>
+          </section>
+          <section>
+            <h1>[google cardboard]</h1>
+          </section>
+          <section>
+            <h2>[cardboctober.xyz]</h2>
+          </section>
+          <section>
+            <h2>[webgl-hacks]</h2>
+          </section>
+          <section>
+            <h3>[I created lots of stuff]</h3>
+          </section>
+          <section>
+            <h1>Key points</h1>
+            <h2>Exploritory - things look different</h2>
+            <h2>Clear output - a defined way of being done</h2>
+          </section>
+          <!-- <section>
+            <h1>Optimised making stuff</h1>
+          </section>
+          <section>
+            <h2>1/ have a place to output</h2>
+            <h2>2/ do rubbish stuff</h2>
+            <h2>3/ practice</h2>
+          </section>
+          <section>
+            <h1>What is creativity?</h1>
+          </section> -->
+          <section>
+            <h2>[adventure collective]</h2>
+          </section>
+          <section>
+            <h3>lanterns</h3>
+          </section>
+        </section>
+
+
+        <section>
+          <section>
+            <h1>Wrap up</h1>
+          </section>
+          <section>
+            <h2>* Immersive Tech - huge potential, in the process of being realised</h2>
+            <h2>* Accessibility barrier falling (user/dev)</h2>
+            <h2>* Explore, and build something small</h2>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>Thanks for listening</h1>
+            <h4>@benjaminbenben</h4>
+          </section>
         </section>
 
       </div>
