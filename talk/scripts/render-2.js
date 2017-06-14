@@ -91,7 +91,7 @@ window.Render2 = (function(Reveal) {
           // Draw stuff
           gl.enableVertexAttribArray(a_position)
 
-          gl.drawArrays(gl.TRIANGLES, 0, 9)
+          // gl.drawArrays(gl.TRIANGLES, 0, 9)
 
 
           function render(t) {
@@ -124,7 +124,7 @@ window.Render2 = (function(Reveal) {
               CAMERA_POSITION = pos
             }
 
-            gl.drawArrays(gl.TRIANGLE_STRIP, 0, data.length/3)
+            gl.drawArrays(gl.TRIANGLES, 0, data.length/3)
           }
 
           stopped = false
