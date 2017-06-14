@@ -77,7 +77,7 @@ class Data {
 
           const prior = positions[i-1] || [0,0,0]
 
-          const n = triangleNormal(
+          const n = this.triangleNormal(
             p[0], p[1], p[2],
             p[0] + by[0], p[1] + by[1], p[2] + by[1],
             prior[0], prior[1], prior[2]
