@@ -38,13 +38,13 @@
             <h2>I'm Ben</h2>
           </section>
           <section>
-            <h3 style="text-decoration:line-through">White October</h3>
-            <h3 style="text-decoration:line-through">Pusher</h3>
-            <h3>Whatever</h3>
+            <h3 class="fragment">White October</h3>
+            <h3 class="fragment">Pusher</h3>
+            <h3 class="fragment">Whatever</h3>
           </section>
-          <!-- <section>
-            <h1>People pay me to type stuff for them</h1>
-          </section> -->
+          <section>
+            <h1>I will type you stuff, <br/>in return for money</h1>
+          </section>
         </section>
 
         <section>
@@ -54,10 +54,11 @@
           </section>
         </section>
 
+
+
         <section>
           <section>
-            <h1>Step 1.</h1>
-            <h2>Gather some points</h2>
+            <h1>Capturing stuff</h1>
           </section>
 
           <section>
@@ -70,13 +71,14 @@
 
           <section>
             <h2>[x, y, z]</h2>
+            <h2>[x, y, z, w]</h2>
           </section>
 
           <section id="populate-draw">
 
           </section>
 
-          <section id="populate">
+          <!-- <section id="populate">
             <table>
               <tr>
                 <td class="d">&nbsp;</td><td class="d"></td><td class="d"></td>
@@ -102,15 +104,15 @@
           </section>
 
           <section id="skip">
-          </section>
+          </section> -->
 
         </section>
 
 
+
         <section>
           <section>
-            <h1>Step 2.</h1>
-            <h2>Draw points to screen</h2>
+            <h1>Drawing stuff</h1>
           </section>
           <section>
             <div class="fragment">
@@ -142,7 +144,6 @@ ctx.stroke()
             <h2>CPU - code</h2>
             <h2>GPU - pipeline</h2>
           </section>
-
 
           <section>
             <h3>WebGL</h3>
@@ -393,19 +394,23 @@ gl.useProgram(program)
         </section>
 
 
+
+
+
         <section>
           <section>
-            <h1>Step 3.</h1>
-            <h2>Getting stuff in the right place</h2>
+            <h1>Moving stuff</h1>
           </section>
 
           <section>
-            <h1>gpu: -1, 1</h1>
-            <h2>real world: …</h2>
+            <h2>webgl: [-1 … 1]</h2>
+            <h2>points: [-? … ?]</h2>
           </section>
 
+          <section data-background="images/cat.gif"></section>
+
           <section>
-            <h1>[maths gif]</h1>
+            <h1>Maths!</h1>
           </section>
 
           <section>
@@ -433,12 +438,12 @@ gl.useProgram(program)
             <img src="images/transform-matrix-h.svg" class="stretch" />
           </section>
 
-          <section>
+          <!-- <section>
             <h1>Transform Matrix</h1>
-          </section>
+          </section> -->
 
           <section>
-            <h1>Handy matrices</h1>
+            <!-- <h1>Handy matrices</h1> -->
             <h2>Model</h2>
             <h2>View</h2>
             <h2>Perspective</h2>
@@ -457,22 +462,64 @@ gl.useProgram(program)
 
         <section>
           <section>
-            <h1>Step 3.</h1>
-            <h2>Making things less flat</h2>
+            <h1>Structuring stuff</h1>
+          </section>
+
+          <section id="triangles">
+            <svg class="stretch" width="712" height="395" viewBox="0 0 712 395" xmlns="http://www.w3.org/2000/svg"><title>Artboard</title><g id="Page-1" fill="none" fill-rule="evenodd"><g id="Artboard" stroke="#FFF"><g id="TRIANGLE_STRIP_2" fill-opacity=".4" fill="#FFF"><path id="Path" d="M130 176l94.8-51-67 121.2zM245.4 200.5L224.8 125l-67 121.2z"/><path id="Path" d="M245.4 200.5L224.8 125l116.8-16zM245.4 200.5l94.2-18 2-73.5z"/><path id="Path" d="M447 125.3l-107.4 57.2 2-73.5zM447 125.3l-107.4 57.2 98.4 15z"/><path id="Path" d="M447 125.3l119.7 56L438 197.4z"/><path id="Path" d="M527.8 240.8l39-59.6L438 197.5z"/><path id="Path" d="M527.8 240.8l39-59.6 73 82.6zM527.8 240.8l52.4 64.8 59.5-41.8z"/></g> <!-- manually edited this one --> <g id="POINTS_2" stroke-linecap="square"> <path d="M154.2 242.2l7.6 7.6M161.8 242.2l-7.6 7.6M242.2 196.2l7.6 7.6M249.8 196.2l-7.6 7.6M337.2 178.2l7.6 7.6M344.8 178.2l-7.6 7.6" id="Line"/> <path d="M434.2 194.2l7.6 7.6M441.8 194.2l-7.6 7.6" id="Line"/> <path d="M524.2 237.2l7.6 7.6M531.8 237.2l-7.6 7.6" id="Line"/> <path d="M577.2 301.2l7.6 7.6M584.8 301.2l-7.6 7.6" id="Line"/> </g> <g id="POINTS" stroke-linecap="square"><path d="M126.2 172.2l7.6 7.6M133.8 172.2l-7.6 7.6M221.2 121.2l7.6 7.6M228.8 121.2l-7.6 7.6M338.2 104.2l7.6 7.6M345.8 104.2l-7.6 7.6" id="Line"/><g><path d="M563.2 176.2l7.6 7.6M570.8 176.2l-7.6 7.6" id="Line"/></g><g><path d="M636.2 259.2l7.6 7.6M643.8 259.2l-7.6 7.6" id="Line"/></g><g><path d="M444.2 121.2l7.6 7.6M451.8 121.2l-7.6 7.6" id="Line"/></g></g><g id="TRIANGLES" fill-opacity=".4" fill="#FFF"><path id="Path" d="M130 176l94.8-51 117-17z"/><path id="Path-2" d="M448.4 125.3l119.8 55.4 72.4 83.5z"/></g><g id="TRIANGLE_STRIP" fill-opacity=".4" fill="#FFF"><path id="Path" d="M130 176l94.8-51 117-17z"/><path id="Path" d="M448 125H224.8l117-17z"/><path id="Path" d="M448 125l119 54.8L341.8 108z"/><path id="Path" d="M448 125l119 54.8 73.5 83z"/></g></g></g></svg>
           </section>
 
           <section>
-            <h1>Colour &amp; Light</h1>
-            <!-- does anyone know why things are a particular colour -->
+            <h2>Generating points</h2>
           </section>
 
           <section>
-            <h1>[lighting diagram]</h1>
+            <h2>Quaternions</h2>
+          </section>
+
+          <section id="render-strip">
+          </section>
+
+        </section>
+
+
+
+        <section>
+          <section>
+            <h1>Colouring in stuff</h1>
+          </section>
+
+          <section data-background="images/Shading.svg" data-background-size="contain">
+            <!-- <h1>Colour &amp; Light</h1> -->
+          </section>
+
+          <section data-background="images/normals_gray.svg" data-background-size="contain">
           </section>
 
           <section>
-            <h1>Normals</h1>
+            <h1>Shaders</h1>
           </section>
+
+          <section>
+            <pre><code data-trim class="hljs glsl">
+              attribute vec3 a_position;
+              attribute vec3 a_normal;
+
+              uniform mat4 u_model;
+              uniform mat4 u_view;
+              uniform mat4 u_projection;
+              uniform vec3 u_light;
+
+              varying float intensity;
+
+              void main() {
+                gl_Position = u_projection * u_model * u_view * vec4(a_position, 1.0);
+
+                intensity = dot(u_light - a_position, a_normal);
+              }
+            </code></pre>
+          </section>
+
 
           <section id="render-3">
 
@@ -564,11 +611,10 @@ gl.useProgram(program)
         </section>
 
 
-
-
         <section>
           <section>
             <h1>Microhacks &amp; Creativity</h1>
+            <!-- before we wrap up - just want to take a segway -->
           </section>
           <section>
             <h1>[google cardboard]</h1>
@@ -585,24 +631,19 @@ gl.useProgram(program)
           <section>
             <h1>Key points</h1>
             <h2>Exploritory - things look different</h2>
-            <h2>Clear output - a defined way of being done</h2>
-          </section>
-          <!-- <section>
-            <h1>Optimised making stuff</h1>
+            <h2>Defined output - a defined way of being done</h2>
           </section>
           <section>
-            <h2>1/ have a place to output</h2>
-            <h2>2/ do rubbish stuff</h2>
-            <h2>3/ practice</h2>
+            <h1>Optimisation</h1>
+            <h2>Exploration - focus away from implementation</h2>
+            <h2>Defined output - "done" &amp; lower barrier</h2>
+            <!-- you can still be a perfectionist and not have a clue what you're doing -->
           </section>
-          <section>
-            <h1>What is creativity?</h1>
-          </section> -->
           <section>
             <h2>[adventure collective]</h2>
           </section>
           <section>
-            <h3>lanterns</h3>
+            <h3>Balloons</h3>
           </section>
         </section>
 
@@ -651,7 +692,10 @@ gl.useProgram(program)
       peer.on('error', () => console.log('Signalling: Error'))
       peer.on('disconnected', () => console.log('Signalling: DISCONNECTED'))
 
-      const conn = peer.connect('ff')
+      const conn = peer.connect('ff',{
+          serialization: 'none',
+          reliable: false
+        })
 
       remoteVR.connect(conn)
 
@@ -685,12 +729,12 @@ gl.useProgram(program)
             }
           },
 
-          {
-            src: 'scripts/populate.js',
-            callback: () => {
-              new PopulateSlide('#populate')
-            }
-          },
+          // {
+          //   src: 'scripts/populate.js',
+          //   callback: () => {
+          //     new PopulateSlide('#populate')
+          //   }
+          // },
 
           {
             src: 'scripts/render-1.js',
@@ -707,9 +751,23 @@ gl.useProgram(program)
           },
 
           {
+            src: 'scripts/render-strip.js',
+            callback: () => {
+              new RenderStrip('#render-strip')
+            }
+          },
+
+          {
             src: 'scripts/render-3.js',
             callback: () => {
               new Render3('#render-3')
+            }
+          },
+
+          {
+            src: 'scripts/triangles.js',
+            callback: () => {
+              new TrianglesSlide('#triangles')
             }
           }
         ]

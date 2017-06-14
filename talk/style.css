@@ -56,3 +56,12 @@ canvas {
   border: none;
   box-shadow: none;
 }
+
+#TRIANGLES *, #TRIANGLE_STRIP_2 *, #TRIANGLE_STRIP *, #POINTS_2 *{
+  transition: .3s
+}
+
+#TRIANGLES * {opacity: 0}
+#TRIANGLE_STRIP_2 * {opacity: 0}
+#TRIANGLE_STRIP * {opacity: 0}
+#POINTS_2 * {opacity: 0}
