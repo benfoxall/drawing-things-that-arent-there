@@ -1,57 +1,5 @@
 window.Render1 = (function(Reveal) {
 
-  function getData() {
-    return Promise.all([
-      localforage.getItem('points'),
-      localforage.getItem('colors'),
-      localforage.getItem('normals'),
-      localforage.getItem('positions'),
-      localforage.getItem('orientations'),
-    ])
-    .then(([points, colors, normals, positions, orientations]) => {
-      const data = new Float32Array((positions.length-1)*6)
-      let l = null
-      positions.forEach((p, i) => {
-        if(!l) return l = p;
-
-        data[i*6 + 0] = p[0]
-        data[i*6 + 1] = p[1]
-        data[i*6 + 2] = p[2]
-
-        // data[i*6 + 3] = l[0]
-        // data[i*6 + 4] = l[1]
-        // data[i*6 + 5] = l[2]
-
-        const quat = new Quaternion(orientations[i])
-        const by = quat.rotateVector([0,0.03,0])
-
-        data[i*6 + 3] = p[0] + by[0]
-        data[i*6 + 4] = p[1] + by[1]
-        data[i*6 + 5] = p[2] + by[2]
-
-        l = p
-
-      })
-
-      // console.log('----', data)
-      return data
-      //
-      // var data = []
-      // for (var i = 0; i < points.length;i+=3) {
-      //   data.push(
-      //     points[i], points[i+1], points[i+2],
-      //     colors[i], colors[i+1], colors[i+2],
-      //     normals[i], normals[i+1], normals[i+2],
-      //   )
-      // }
-      //
-      // return data
-
-    })
-  }
-
-
-
   function create(selector) {
 
     const root = document.querySelector(selector)
@@ -65,7 +13,8 @@ window.Render1 = (function(Reveal) {
 
     builder.shown(() => {
       console.log("render-1")
-      getData()
+      // getData()
+      data.toVectors()
         .then(data => {
 
           // no references, so should be collected
@@ -115,7 +64,7 @@ window.Render1 = (function(Reveal) {
 
           // Draw stuff
           gl.enableVertexAttribArray(a_position)
-          gl.drawArrays(gl.TRIANGLE_STRIP, 0, data.length/9)
+          gl.drawArrays(gl.TRIANGLES, 0, data.length/9)
 
         })
 

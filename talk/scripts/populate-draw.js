@@ -73,8 +73,11 @@ class PopulateDrawSlide {
           h1.innerText = 'Done'
           callback.handler = () => {}
 
-          localforage.setItem('positions', positions)
-          localforage.setItem('orientations', orientations)
+          // localforage.setItem('positions', positions)
+          // localforage.setItem('orientations', orientations)
+
+          data.set(positions, orientations)
+
         }
       ])
 
