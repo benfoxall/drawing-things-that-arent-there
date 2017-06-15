@@ -13,6 +13,8 @@ window.RenderStrip = (function(Reveal) {
 
     let CAMERA_POSITION
 
+    let RENDER_TYPE = canvas.getContext('webgl').TRIANGLES
+
     builder
     .shown(() => {
       console.log("render-strip")
@@ -125,7 +127,8 @@ window.RenderStrip = (function(Reveal) {
               CAMERA_POSITION = pos
             }
 
-            gl.drawArrays(gl.TRIANGLE_STRIP, 0, data.length/3)
+            // gl.TRIANGLE_STRIP
+            gl.drawArrays(RENDER_TYPE, 0, data.length/3)
           }
 
           stopped = false
@@ -133,6 +136,11 @@ window.RenderStrip = (function(Reveal) {
 
         })
     })
+    .fragments([
+      () => {
+        RENDER_TYPE = canvas.getContext('webgl').TRIANGLE_STRIP
+      }
+    ])
     .hidden(() => {
       console.log("HIDDEN")
       stopped = true

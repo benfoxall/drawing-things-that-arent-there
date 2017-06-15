@@ -1,5 +1,8 @@
 @import url(font/font.css);
 
+body {
+  background: #000;
+}
 
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
   /*font-family: BentonSans-Boxld, 'Avenir', Helvetica-Neue, sans-serif;*/
@@ -36,7 +39,7 @@
 
 hr {
   border: none;
-  border-bottom: 1px solid #505050;
+  border-bottom: 1px solid #fff;
 }
 
 .reveal .over {

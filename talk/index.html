@@ -61,13 +61,9 @@
             <h1>Capturing stuff</h1>
           </section>
 
-          <section>
-            <h2>[lighthouse]</h2>
-          </section>
-
-          <section>
-            <h2>[controller]</h2>
-          </section>
+          <section data-background="images/lighthouse.jpg"></section>
+          <section data-background="images/lighthouse-inner.jpg"></section>
+          <section data-background="images/controller.jpg"></section>
 
           <section>
             <h2>[x, y, z]</h2>
@@ -118,32 +114,32 @@
             <div class="fragment">
               <h3>SVG</h3>
               <pre><code class="hljs html" data-trim>
-&lt;path d="M0 0 L 1 1"/&gt;
+                  &lt;path d="M0 0 L 1 1"/&gt;
               </code></pre>
             </div>
             <div class="fragment">
               <h3>Canvas2D</h3>
                 <pre><code class="hljs javascript" data-trim>
-ctx.beginPath()
-ctx.moveTo(0,0)
-ctx.moveTo(1,1)
-ctx.stroke()
+                  const ctx = canvas.getContext('2d')
+                  ctx.beginPath()
+                  ctx.moveTo(0,0)
+                  ctx.moveTo(1,1)
+                  ctx.stroke()
                 </code></pre>
             </div>
           </section>
           <section>
-            <h2>CPU vs GPU</h2>
+            <h2>CPU &amp; GPU</h2>
             <!-- CPU - works kind of like how you'd think a program exectutes, plus lots of other stuff -->
           </section>
           <section>
-            <h2>CPU - multiple cores</h2>
-            <h2>GPU - loads of cores</h2>
+            <img class="stretch" src="images/cpu-gpu.svg" />
           </section>
 
           <section>
-            <h2>CPU - code</h2>
-            <h2>GPU - pipeline</h2>
+            <img class="stretch" src="images/Pipeline.svg" />
           </section>
+
 
           <section>
             <h3>WebGL</h3>
@@ -212,7 +208,7 @@ gl.compileShader(vertex_shader)
             </code>
           </section>
 
-
+<!--
           <section>
             <h1>Buffers</h1>
             <pre><code class="hljs javascript" data-trim>
@@ -256,55 +252,41 @@ gl.compileShader(vertex_shader)
               </code></pre>
             </div>
 
+          </section> -->
+
+
+          <section>
+            <h2>*Buffers</h2>
+            <pre><code class="hljs javascript" data-trim>
+            gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([
+              0.861	1.716	1.146	0.525	0.062	0.980, 1,
+              0.583	1.163	0.777	0.980	0.525	0.062, 1,
+              0.431	0.860	0.574	0.062	0.980	0.525, 1,
+              -1.37	0.616	0.411	0.290	0.690	0.8, 1,
+              -1.54	0.315	0.725	0.290	0.690	0.8, 1,
+              -1.18	0.225	0.241	0.290	0.690	0.8, 1,
+              -0.82	0.151	-2.15	1	0.341	0.572, 1,
+              0.193	0.068	-1.52	1	0.341	0.572, 1,
+              0.748	0.034	-0.79	1	0.341	0.572, 1,
+            ]), gl.STATIC_DRAW)
+
+            gl.vertexAttribPointer(a_position, 3, gl.FLOAT, false, 4*7, 0)
+            gl.vertexAttribPointer(a_orientation, 4, gl.FLOAT, false, 4*7, 4*3)
+            </code></pre>
+          </section>
+
+          <section>
+            <h2>*Draw calls</h2>
+            <pre><code class="hljs javascript" data-trim>
+              gl.drawArrays(gl.TRIANGLES, 0, 9)
+            </code></pre>
           </section>
 
           <section>
             <hr />
           </section>
 
-          <section>
-            <h2>Plugging in our data</h2>
-            <pre><code class="hljs javascript" data-trim>
-            gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([
-              0.861	1.716	1.146	0.525	0.062	0.980
-              0.583	1.163	0.777	0.980	0.525	0.062
-              0.431	0.860	0.574	0.062	0.980	0.525
-              -1.37	0.616	0.411	0.290	0.690	0.8
-              -1.54	0.315	0.725	0.290	0.690	0.8
-              -1.18	0.225	0.241	0.290	0.690	0.8
-              -0.82	0.151	-2.15	1	0.341	0.572
-              0.193	0.068	-1.52	1	0.341	0.572
-              0.748	0.034	-0.79	1	0.341	0.572
-            ]), gl.STATIC_DRAW)
-
-            gl.vertexAttribPointer(a_position, 3, gl.FLOAT, false, 4*6, 0)
-            gl.vertexAttribPointer(a_color, 3, gl.FLOAT, false, 4*6, 4*3)
-            </code></pre>
-          </section>
-
-          <section>
-            <h2>Shaders</h2>
-            <pre><code class="stretch hljs glsl" data-trim>
-              // vertex
-              attribute vec3 a_position;
-              attribute vec3 a_color;
-              varying vec3 v_color;
-              void main() {
-                gl_Position = vec4(a_position, 1.0);
-                v_color = a_color;
-              }
-
-              // fragment
-              precision mediump float;
-              varying vec3 v_color;
-              void main() {
-                gl_FragColor = vec4(v_color, 1);
-              }
-            </code></pre>
-          </section>
-
           <section id="render-1">
-            <h4 class="over">Result</h4>
           </section>
 
 
@@ -407,7 +389,13 @@ gl.useProgram(program)
             <h2>points: [-? … ?]</h2>
           </section>
 
-          <section data-background="images/cat.gif"></section>
+          <!-- <section>
+            <h3>Instructional video</h3>
+          </section> -->
+
+          <section>
+            <img src="images/cat.gif" alt="" class="stretch">
+          </section>
 
           <section>
             <h1>Maths!</h1>
@@ -450,11 +438,18 @@ gl.useProgram(program)
           </section>
 
           <section>
-            <h1>Uniforms</h1>
+            <h1>*Uniforms</h1>
+            <pre><code data-trim>
+              const u_model = gl.getUniformLocation(program, 'u_model')
+              gl.uniformMatrix4fv(u_model, false, modelMatrix)
+            </code></pre>
+          </section>
+
+          <section>
+            <hr/>
           </section>
 
           <section id="render-2">
-            <h4 class="over">Result</h4>
           </section>
 
         </section>
@@ -462,7 +457,7 @@ gl.useProgram(program)
 
         <section>
           <section>
-            <h1>Structuring stuff</h1>
+            <h1>Generating stuff</h1>
           </section>
 
           <section id="triangles">
@@ -470,11 +465,24 @@ gl.useProgram(program)
           </section>
 
           <section>
-            <h2>Generating points</h2>
+            <h2>Choosing points</h2>
           </section>
 
           <section>
-            <h2>Quaternions</h2>
+            <h1>A &rarr; B</h1>
+            <h2>B = A + (0.01, 0, 0)</h2>
+          </section>
+
+          <section>
+            <h2>Quaternions!</h2>
+          </section>
+
+          <section>
+            <h2>B = A + Q.rotate(0.01, 0, 0)</h2>
+          </section>
+
+          <section>
+            <hr />
           </section>
 
           <section id="render-strip">
@@ -486,18 +494,23 @@ gl.useProgram(program)
 
         <section>
           <section>
-            <h1>Colouring in stuff</h1>
+            <h1>Shading stuff</h1>
           </section>
 
           <section data-background="images/Shading.svg" data-background-size="contain">
-            <!-- <h1>Colour &amp; Light</h1> -->
+          </section>
+          <section data-background="images/Shading2.svg" data-background-size="contain">
           </section>
 
           <section data-background="images/normals_gray.svg" data-background-size="contain">
           </section>
 
           <section>
-            <h1>Shaders</h1>
+            <h2>[todo: dot product]</h2>
+          </section>
+
+          <section>
+            <h1>*Shaders</h1>
           </section>
 
           <section>
@@ -520,36 +533,59 @@ gl.useProgram(program)
             </code></pre>
           </section>
 
-
-          <section id="render-3">
-
+          <section>
+            <hr />
           </section>
+
+
+          <section id="render-3"></section>
 
         </section>
 
         <section>
           <section>
             <h1>Stuff we covered</h1>
-            <h3>Gathering data</h3>
-            <h3>Drawing points</h3>
-            <h3>Transforming positions</h3>
-            <h3>Lighting &amp; Shaders</h3>
+            <h3>Capture</h3>
+            <h3>Drawing</h3>
+            <h3>Moving</h3>
+            <h3>Generating</h3>
+            <h3>Shading</h3>
           </section>
+        </section>
+
+        <section>
+          <section id="render-final"></section>
         </section>
 
         <section>
 
           <section>
-            <h1>…But<span class="fragment">, so what?</span></h1>
+            <h1>
+              Great.
+              <br/>
+              <span class="fragment">But, <span class="fragment">why bother?</span></span>
+            </h1>
           </section>
 
           <section>
             <h1>WebVR</h1>
           </section>
 
+          <!-- <section>
+            <h2>Android Chrome</h2>
+            <h2>Firefox*</h2>
+            <h2>Chrome*</h2>
+          </section> -->
+
           <section>
             <h2>navigator.getVRDisplays()</h2>
             <h4>// [VRDisplay]</h4>
+
+            <!--
+              * doesn't have to be a Vive, could be cardboard, or any app on your phone that claims to support it - might be virtual virtual reality
+            -->
+
+            <!-- <h6><small><br/><br/>Vive, or cardboard, or magic window, or something difference</small></h6> -->
           </section>
 
           <section>
@@ -562,62 +598,91 @@ gl.useProgram(program)
           </section>
 
           <section>
-            <pre><code data-trim>
-              &lt;button onclick="launchVR()"&gt;Enter VR&lt;/a&gt;
-            </code></pre>
+            <h1>Virtual Reality</h1>
+            <h2>From a web page</h2>
+          </section>
+
+          <!-- <section>
+            <h1>Immersive Content</h1>
+            <h2>From the web</h2>
+          </section> -->
+
+
+          <!-- <section>
+            <h4>(not just for pc gamers)</h4>
+            <h1>PCs<span class="fragment">, Macs</span><span class="fragment">, Android</span><span class="fragment">, iOS<span class="fragment">, Whole other things </span></h1>
           </section>
 
           <section>
-            <h1>Support</h1>
-            <h2>(not just Vive)</h2>
+            <h4>(not just for pc gamers)</h4>
+            <h2>Vive / Occulus / Hololens</h2>
+            <h2>WindowsMR / WorldSense</h2>
+            <h2>Daydream / GearVR</h2>
+            <h2>Cardboard</h2>
           </section>
+
+          <section>
+            <h1>Galaxy S8<br/> Google Pixel<br/><span class="fragment">new android phones</span></h1>
+          </section> -->
+
+
         </section>
 
-        <section>
+
+        <!-- <section>
           <section>
-            <h1>What is cool content</h1>
-          </section>
-          <section>
-            <h1>Tiltbrush</h1>
-          </section>
-          <section>
-            <h1>Visualisation</h1>
-          </section>
-          <section>
-            <h1>Memory</h1>
+            <h1>Things you can do with WebVR</h1>
           </section>
           <section>
             <h1>Empathy</h1>
           </section>
-        </section>
+          <section>
+            <h1>Comprehension</h1>
+          </section>
+          <section>
+            <h1>Creation</h1>
+          </section>
+        </section> -->
 
 
         <section>
           <section>
-            <h1>Building your own virtual things</h1>
+            <h1>You can do this!</h1>
           </section>
           <section>
-            <h3>(you don't have to write shaders)</h3>
+            <img class="stretch" src="images/vr-creator.png" />
           </section>
+
           <section>
-            <h1>THREE.js</h1>
-          </section>
-          <section>
-            <h1>react-vr</h1>
-          </section>
-          <section>
-            <h1>a-frame</h1>
+            <img class="stretch" src="images/vr-consumer.png" />
           </section>
         </section>
 
-
         <section>
           <section>
-            <h1>Microhacks &amp; Creativity</h1>
-            <!-- before we wrap up - just want to take a segway -->
+            <h1>Should you do this?</h1>
+          </section>
+          <section data-background="images/Johnny-Mnemonic.jpg">
+            <h1>VR Websites?</h1>
           </section>
           <section>
-            <h1>[google cardboard]</h1>
+            <h2>Content is immersive</h2>
+          </section>
+          <!-- <section>
+            <img src="images/dinosaurs.png" />
+          </section> -->
+          <section>
+            <h1>LOL, you support touch interactions?</h1>
+          </section>
+        </section>
+
+        <!-- <section>
+          <section>
+            <h1>I've no idea how long this will take</h1>
+            <h2>&darr; &rarr;</h2>
+          </section>
+          <section>
+            <h1>Microhacks</h1>
           </section>
           <section>
             <h2>[cardboctober.xyz]</h2>
@@ -637,7 +702,6 @@ gl.useProgram(program)
             <h1>Optimisation</h1>
             <h2>Exploration - focus away from implementation</h2>
             <h2>Defined output - "done" &amp; lower barrier</h2>
-            <!-- you can still be a perfectionist and not have a clue what you're doing -->
           </section>
           <section>
             <h2>[adventure collective]</h2>
@@ -645,7 +709,7 @@ gl.useProgram(program)
           <section>
             <h3>Balloons</h3>
           </section>
-        </section>
+        </section> -->
 
 
         <section>
@@ -661,7 +725,8 @@ gl.useProgram(program)
 
         <section>
           <section>
-            <h1>Thanks for listening</h1>
+            <h1>Thank you</h1>
+            <h2>(And happy birthday!)</h2>
             <h4>@benjaminbenben</h4>
           </section>
         </section>
@@ -769,7 +834,14 @@ gl.useProgram(program)
             callback: () => {
               new TrianglesSlide('#triangles')
             }
-          }
+          },
+
+          {
+            src: 'scripts/render-final.js',
+            callback: () => {
+              new RenderFinal('#render-final')
+            }
+          },
         ]
       });
 

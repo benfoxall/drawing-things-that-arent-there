@@ -35,31 +35,14 @@ window.Render3 = (function(Reveal) {
             uniform mat4 u_model;
             uniform mat4 u_view;
             uniform mat4 u_projection;
-
             uniform vec3 u_light;
 
             varying float intensity;
 
             void main() {
-              gl_Position = u_projection  * u_model * u_view * vec4(a_position, 1.0);
+              gl_Position = u_projection * u_model * u_view * vec4(a_position, 1.0);
 
-              float dx = u_light.x - a_position.x;
-              float dy = u_light.y - a_position.y;
-              float dz = u_light.z - a_position.z;
-
-              vec3 v_to_light = vec3(dx,dy,dz);
-
-              intensity = dot(v_to_light, a_normal);
-
-
-              // vec4 position = u_model * u_view * vec4(a_position, 1.0);
-              // vec4 normal = (u_model * u_view * vec4(a_normal, 1.0)) - position;
-
-              // vec3 n = normal.xyz / normal.w;
-
-              // intensity = max(dot(normalize(normal.xyz), normalize(u_light)),0.0);
-
-              // intensity = max(dot(normal.xyz, u_light),0.0);
+              intensity = max(dot(u_light - a_position, a_normal), 0.0);
             }
           `)
 
@@ -68,7 +51,7 @@ window.Render3 = (function(Reveal) {
             varying float intensity;
 
             void main() {
-              gl_FragColor = vec4(.5,.5,.5,1) + (vec4(1,1,1,1) * intensity);
+              gl_FragColor = vec4(.5,.5,.5,1) + (vec4(0.5,1,1,1) * intensity);
 
               // gl_FragColor = vec4(1,0,1,1);
             }
@@ -125,17 +108,23 @@ window.Render3 = (function(Reveal) {
           mat4.perspective(projectionMatrix, Math.PI/2, ratio, 0.1, 10)
           gl.uniformMatrix4fv(u_projection, false, projectionMatrix)
 
-          const pos = [
-            // 0.742116391658783, 0.4881299138069153, 1.7520594596862793
-            // 0,0,2
+          const camera = window.CAMERA_POSITION || [0,0,0]
 
-            -0.25600099563598633, 0.7947072982788086, 1.3438549041748047
-          ]
+          let cameraPose
+
+          if(remoteVR.getGamepads()[0]){
+            cameraPose = remoteVR.getGamepads()[0].pose
+          }
+          else {
+            cameraPose = {
+              position: [0,0,0],
+              orientation: [0,0,0,1]
+            }
+          }
 
           mat4.identity(viewMatrix)
-          mat4.translate(viewMatrix, viewMatrix,
-            [-pos[0], -pos[1], -pos[2]]
-          )
+          mat4.fromRotationTranslation(viewMatrix, cameraPose.orientation, cameraPose.position)
+          mat4.invert(viewMatrix, viewMatrix)
           gl.uniformMatrix4fv(u_view, false, viewMatrix)
 
 
@@ -158,23 +147,8 @@ window.Render3 = (function(Reveal) {
             } catch (e) {}
 
             if(pos) {
-              console.log("p", pos)
-              window.pos = pos
-
-              // const centroid = [-0.7227998971939087,
-              //     0.852906346321106,
-              //     0.9807480573654175
-              //   ]
-
-              // const centroid =   [
-              //   -1.2972007989883423,
-              //   0.5991548299789429,
-              //   0.6534359455108643
-              // ]
-
-              // const light = pos.map((p,i) => p - centroid[i])
-              console.log("LIGHT", pos)
-              gl.uniform3fv(u_light, pos)
+              const light = pos.map((p,i) => p - camera[i])
+              gl.uniform3fv(u_light, light)
             }
 
             gl.drawArrays(gl.TRIANGLE_STRIP, 0, data.length/6)
@@ -189,8 +163,12 @@ window.Render3 = (function(Reveal) {
       // console.log("HIDDEN")
       // stopped = true
 
-      // console.log("STORING CAMERA POSITION", CAMERA_POSITION)
-      // localforage.setItem('camera_position', CAMERA_POSITION)
+      if(remoteVR.getGamepads()[0]){
+        const cameraPose = remoteVR.getGamepads()[0].pose
+        localforage.setItem('light_position', cameraPose.position)
+      }
+
+
 
       // 0.742116391658783, 0.4881299138069153, 1.7520594596862793
     })

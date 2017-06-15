@@ -1,4 +1,4 @@
-window.Render2 = (function(Reveal) {
+window.RenderFinal = (function(Reveal) {
 
   function create(selector) {
 
@@ -15,8 +15,8 @@ window.Render2 = (function(Reveal) {
 
     builder
     .shown(() => {
-      console.log("render-2")
-      data.toVectors()
+      console.log("render-3")
+      data.toVectorStripWithNormals()
         .then(data => {
 
           // no references, so should be collected
@@ -30,24 +30,42 @@ window.Render2 = (function(Reveal) {
 
           gl.shaderSource(vertex_shader,`
             attribute vec3 a_position;
+            attribute vec3 a_normal;
 
             uniform mat4 u_model;
             uniform mat4 u_view;
             uniform mat4 u_projection;
+            uniform vec3 u_light;
+
+            varying float intensity;
 
             void main() {
-              gl_Position = u_projection * u_view * u_model * vec4(a_position, 1.0);
+              gl_Position = u_projection * u_model * u_view * vec4(a_position, 1.0);
+
+              intensity = max(dot(u_light - a_position, a_normal), 0.0);
             }
           `)
 
           gl.shaderSource(fragment_shader,`
+            precision mediump float;
+            varying float intensity;
+
             void main() {
-              gl_FragColor = vec4(1,1,1, 1);
+              gl_FragColor = vec4(.5,.5,.5,1) + (vec4(0.5,1,1,1) * intensity);
+
+              // gl_FragColor = vec4(1,0,1,1);
             }
           `)
 
           gl.compileShader(vertex_shader)
           gl.compileShader(fragment_shader)
+
+          ;[vertex_shader, fragment_shader].forEach(shader => {
+            if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+              throw "Could not compile" +
+                " shader:\n\n"+gl.getShaderInfoLog(shader);
+            }
+          })
 
 
           // Send attribute data to GPU
@@ -65,15 +83,18 @@ window.Render2 = (function(Reveal) {
 
           const a_position = gl.getAttribLocation(program, 'a_position')
           // const a_color = gl.getAttribLocation(program, 'a_color')
+          const a_normal = gl.getAttribLocation(program, 'a_normal')
 
-          gl.vertexAttribPointer(a_position, 3, gl.FLOAT, false, 4*3, 0)
+          gl.vertexAttribPointer(a_position, 3, gl.FLOAT, false, 4*6, 0)
           // gl.vertexAttribPointer(a_color, 3, gl.FLOAT, false, 4*9, 4*3)
+          gl.vertexAttribPointer(a_normal, 3, gl.FLOAT, false, 4*6, 4*3)
 
 
           // projection matrix
           const u_model = gl.getUniformLocation(program, 'u_model')
           const u_view = gl.getUniformLocation(program, 'u_view')
           const u_projection = gl.getUniformLocation(program, 'u_projection')
+          const u_light = gl.getUniformLocation(program, 'u_light')
 
           const modelMatrix = mat4.create()
           gl.uniformMatrix4fv(u_model, false, modelMatrix)
@@ -87,12 +108,43 @@ window.Render2 = (function(Reveal) {
           mat4.perspective(projectionMatrix, Math.PI/2, ratio, 0.1, 10)
           gl.uniformMatrix4fv(u_projection, false, projectionMatrix)
 
+          const camera = window.CAMERA_POSITION || [0,0,0]
+
+          let cameraPose
+
+          if(remoteVR.getGamepads()[0]){
+            cameraPose = remoteVR.getGamepads()[0].pose
+          }
+          else {
+            cameraPose = {
+              position: [0,0,0],
+              orientation: [0,0,0,1]
+            }
+          }
+
+          mat4.identity(viewMatrix)
+          mat4.fromRotationTranslation(viewMatrix, cameraPose.orientation, cameraPose.position)
+          mat4.invert(viewMatrix, viewMatrix)
+          gl.uniformMatrix4fv(u_view, false, viewMatrix)
+
+
+          // get light position
+          gl.uniform3fv(u_light, [0,1,0])
+          localforage.getItem('light_position').then(light => {
+            console.log("Setting light", light)
+            if(light) gl.uniform3fv(u_light, light)
+          })
+
+
 
           // Draw stuff
           gl.enableVertexAttribArray(a_position)
+          gl.enableVertexAttribArray(a_normal)
 
-          // gl.drawArrays(gl.TRIANGLES, 0, 9)
 
+          // gl.drawArrays(gl.TRIANGLE_STRIP, 0, 90)
+
+          console.log("RENDED")
 
           function render(t) {
             if(stopped) return
@@ -102,7 +154,6 @@ window.Render2 = (function(Reveal) {
 
             try {
               pose = remoteVR.getGamepads()[0].pose
-              window.camera = pose
             } catch (e) {}
 
             if(pose) {
@@ -116,10 +167,11 @@ window.Render2 = (function(Reveal) {
 
               window.CAMERA_POSITION = CAMERA_POSITION = pos
 
+              console.log('asdfad')
               // window.CAMERA_POSE = pose
             }
 
-            gl.drawArrays(gl.TRIANGLES, 0, data.length/3)
+            gl.drawArrays(gl.TRIANGLE_STRIP, 0, data.length/6)
           }
 
           stopped = false
@@ -128,13 +180,7 @@ window.Render2 = (function(Reveal) {
         })
     })
     .hidden(() => {
-      console.log("HIDDEN")
-      stopped = true
-
-      console.log("STORING CAMERA POSITION", CAMERA_POSITION)
-      localforage.setItem('camera_position', CAMERA_POSITION)
-
-      // 0.742116391658783, 0.4881299138069153, 1.7520594596862793
+      stoppped = true
     })
 
   }
