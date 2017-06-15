@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="768px" viewBox="0 0 1024 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Pipeline</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pipeline">
+            <path d="M250.863471,314.5 L751.5,314.5" id="Line" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M751.5,314.5 L740.7,311.5 L740.7,317.5 L751.5,314.5 Z" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M250.863471,334.5 L751.5,334.5" id="Line" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M751.5,334.5 L740.7,331.5 L740.7,337.5 L751.5,334.5 Z" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M250.863471,354.5 L751.5,354.5" id="Line" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M751.5,354.5 L740.7,351.5 L740.7,357.5 L751.5,354.5 Z" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M388.5,296.123613 L388.5,374.741508" id="Line" stroke="#FF17F5" stroke-width="13" stroke-linecap="square"></path>
+            <path d="M604.5,296.123613 L604.5,374.741508" id="Line" stroke="#FF17F5" stroke-width="13" stroke-linecap="square"></path>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="13" x="52.5" y="248.5" width="191" height="191"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="13" x="766.5" y="248.5" width="191" height="191"></rect>
+            <text id="DATA" font-family="DINAlternate-Bold, DIN Alternate" font-size="41.5" font-weight="bold" fill="#FFFFFF">
+                <tspan x="99" y="351">DATA</tspan>
+            </text>
+            <text id="SHADERS" font-family="DINAlternate-Bold, DIN Alternate" font-size="41.5" font-weight="bold" fill="#FFFFFF">
+                <tspan x="414" y="281">SHADERS</tspan>
+            </text>
+            <text id="SCREEN" font-family="DINAlternate-Bold, DIN Alternate" font-size="41.5" font-weight="bold" fill="#FFFFFF">
+                <tspan x="789" y="349">SCREEN</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

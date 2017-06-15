@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="712px" height="395px" viewBox="0 0 712 395" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Shading</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shading">
+            <g id="Group" transform="translate(416.000000, 124.000000)">
+                <polygon id="Path-4" fill="#ADADAD" points="0.0244256891 126.949673 9.42247359 64.9978448 18.6725412 146.849131"></polygon>
+                <polygon id="Path-4" fill="#D58888" points="80.2712933 89.5210384 9.42247359 64.9978448 18.6725412 146.849131"></polygon>
+                <polygon id="Path" fill="#8F8F99" points="80.2712933 89.5210384 138.214672 146.849131 158.075188 58.0869046"></polygon>
+                <polygon id="Path" fill="#8387A2" points="176.367631 98.4310108 138.214672 146.849131 158.075188 58.0869046"></polygon>
+                <polygon id="Path" fill="#BEBECA" points="80.2712933 89.5210384 95.5106693 5.1073567 158.075188 58.0869046"></polygon>
+                <polygon id="Path" fill="#7F8096" points="136.664773 22.0160545 95.5106693 5.1073567 158.075188 58.0869046"></polygon>
+                <polygon id="Path" fill="#EEEDF3" points="80.2712933 89.5210384 95.5106693 5.1073567 9.16545516 63.9905403"></polygon>
+                <polygon id="Path" fill="#BCBDC1" points="46.9783192 0.945734934 95.5106693 5.1073567 9.16545516 63.9905403"></polygon>
+                <polygon id="Path" fill="#7F7E83" points="80.2712933 89.5210384 138.214672 146.849131 18.7530217 146.849131"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="80.2712933 89.5210384 8.95681345 63.7319369 18.6725412 146.849131"></polygon>
+            </g>
+            <g id="Group" transform="translate(119.000000, 124.000000)" stroke="#FFFFFF" fill="#FFFFFF">
+                <polygon id="Path-4" points="0.0244256891 126.949673 9.42247359 64.9978448 18.6725412 146.849131"></polygon>
+                <polygon id="Path-4" points="80.2712933 89.5210384 9.42247359 64.9978448 18.6725412 146.849131"></polygon>
+                <polygon id="Path" points="80.2712933 89.5210384 138.214672 146.849131 158.075188 58.0869046"></polygon>
+                <polygon id="Path" points="176.367631 98.4310108 138.214672 146.849131 158.075188 58.0869046"></polygon>
+                <polygon id="Path" points="80.2712933 89.5210384 95.5106693 5.1073567 158.075188 58.0869046"></polygon>
+                <polygon id="Path" points="136.664773 22.0160545 95.5106693 5.1073567 158.075188 58.0869046"></polygon>
+                <polygon id="Path" points="80.2712933 89.5210384 95.5106693 5.1073567 9.16545516 63.9905403"></polygon>
+                <polygon id="Path" points="46.9783192 0.945734934 95.5106693 5.1073567 9.16545516 63.9905403"></polygon>
+                <polygon id="Path" points="80.2712933 89.5210384 138.214672 146.849131 18.7530217 146.849131"></polygon>
+                <polygon id="Path" points="80.2712933 89.5210384 9.42247359 64.9978448 18.6725412 146.849131"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

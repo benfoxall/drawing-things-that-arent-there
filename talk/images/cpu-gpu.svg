@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="768px" viewBox="0 0 1024 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>cpu-gpu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cpu-gpu">
+            <g id="Core" transform="translate(166.000000, 503.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="49.7761194" y="49.7761194" width="72.4477612" height="72.4477612"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(64.179104, 17.970149)" stroke-linecap="square">
+                    <path d="M3.85074627,19.2537313 L3.85074627,1.28358209" id="Line" stroke-width="3"></path>
+                    <path d="M21.8208955,19.2537313 L21.8208955,1.28358209" id="Line" stroke-width="3"></path>
+                    <path d="M39.7910448,19.2537313 L39.7910448,1.28358209" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(64.179104, 133.492537)" stroke-linecap="square">
+                    <path d="M3.85074627,19.2537313 L3.85074627,1.28358209" id="Line" stroke-width="3"></path>
+                    <path d="M21.8208955,19.2537313 L21.8208955,1.28358209" id="Line" stroke-width="3"></path>
+                    <path d="M39.7910448,19.2537313 L39.7910448,1.28358209" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(28.238806, 86.000000) rotate(90.000000) translate(-28.238806, -86.000000) translate(6.417910, 75.731343)" stroke-linecap="square">
+                    <path d="M3.85074627,19.2537313 L3.85074627,1.28358209" id="Line" stroke-width="3"></path>
+                    <path d="M21.8208955,19.2537313 L21.8208955,1.28358209" id="Line" stroke-width="3"></path>
+                    <path d="M39.7910448,19.2537313 L39.7910448,1.28358209" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(143.761194, 86.000000) rotate(90.000000) translate(-143.761194, -86.000000) translate(121.940299, 75.731343)" stroke-linecap="square">
+                    <path d="M3.85074627,19.2537313 L3.85074627,1.28358209" id="Line" stroke-width="3"></path>
+                    <path d="M21.8208955,19.2537313 L21.8208955,1.28358209" id="Line" stroke-width="3"></path>
+                    <path d="M39.7910448,19.2537313 L39.7910448,1.28358209" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(582.000000, 471.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(664.000000, 471.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(746.000000, 471.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(828.000000, 471.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(910.000000, 471.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(582.000000, 541.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(664.000000, 541.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(746.000000, 541.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(828.000000, 541.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(910.000000, 541.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(582.000000, 605.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(664.000000, 605.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(746.000000, 605.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(828.000000, 605.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(910.000000, 605.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(582.000000, 675.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(664.000000, 675.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(746.000000, 675.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(828.000000, 675.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <g id="Core" transform="translate(910.000000, 675.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="2" x="16.3134328" y="16.3134328" width="21.3731343" height="21.3731343"></rect>
+                <g id="Group-3" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 5.641791)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-4" stroke-width="1" fill-rule="evenodd" transform="translate(20.149254, 41.910448)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(8.865672, 27.000000) rotate(90.000000) translate(-8.865672, -27.000000) translate(2.014925, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+                <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(45.134328, 27.000000) rotate(90.000000) translate(-45.134328, -27.000000) translate(38.283582, 23.776119)" stroke-linecap="square">
+                    <path d="M1.20895522,6.04477612 L1.20895522,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M6.85074627,6.04477612 L6.85074627,0.402985075" id="Line" stroke-width="3"></path>
+                    <path d="M12.4925373,6.04477612 L12.4925373,0.402985075" id="Line" stroke-width="3"></path>
+                </g>
+            </g>
+            <path d="M134.5,126.5 L283.530198,126.5" id="Line" stroke="#FFFFFF" stroke-width="13" stroke-linecap="square"></path>
+            <path d="M176.5,170.5 L354.5,170.5" id="Line" stroke="#FFFFFF" stroke-width="13" stroke-linecap="square"></path>
+            <path d="M231.5,214.5 L351.537494,214.5" id="Line" stroke="#FFFFFF" stroke-width="13" stroke-linecap="square"></path>
+            <path d="M179.5,258.5 L332.513071,258.5" id="Line" stroke="#FFFFFF" stroke-width="13" stroke-linecap="square"></path>
+            <path d="M149.5,302.5 L296.5,302.5" id="Line" stroke="#FF17F5" stroke-width="13" stroke-linecap="square"></path>
+            <path d="M216.5,347.5 L370.5,347.5" id="Line" stroke="#FFFFFF" stroke-width="13" stroke-linecap="square"></path>
+            <path d="M154.5,391.5 L308.5,391.5" id="Line" stroke="#FFFFFF" stroke-width="13" stroke-linecap="square"></path>
+            <path d="M154.5,435.5 L308.5,435.5" id="Line" stroke="#FFFFFF" stroke-width="13" stroke-linecap="square"></path>
+            <path d="M579.5,156.5 L838.623523,156.5" id="Line" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M838.623523,156.5 L827.823523,153.5 L827.823523,159.5 L838.623523,156.5 Z" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M661.5,177.5 L920.623523,177.5" id="Line" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M920.623523,177.5 L909.823523,174.5 L909.823523,180.5 L920.623523,177.5 Z" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M613.5,218.5 L872.623523,218.5" id="Line" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M872.623523,218.5 L861.823523,215.5 L861.823523,221.5 L872.623523,218.5 Z" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M640.5,259.5 L899.623523,259.5" id="Line" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M899.623523,259.5 L888.823523,256.5 L888.823523,262.5 L899.623523,259.5 Z" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M572.5,198.5 L831.623523,198.5" id="Line" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M831.623523,198.5 L820.823523,195.5 L820.823523,201.5 L831.623523,198.5 Z" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M654.5,238.5 L913.623523,238.5" id="Line" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M913.623523,238.5 L902.823523,235.5 L902.823523,241.5 L913.623523,238.5 Z" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M606.5,279.5 L865.623523,279.5" id="Line" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M865.623523,279.5 L854.823523,276.5 L854.823523,282.5 L865.623523,279.5 Z" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M633.5,300.5 L892.623523,300.5" id="Line" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M892.623523,300.5 L881.823523,297.5 L881.823523,303.5 L892.623523,300.5 Z" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M572.5,320.5 L831.623523,320.5" id="Line" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M831.623523,320.5 L820.823523,317.5 L820.823523,323.5 L831.623523,320.5 Z" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M654.5,341.5 L913.623523,341.5" id="Line" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M913.623523,341.5 L902.823523,338.5 L902.823523,344.5 L913.623523,341.5 Z" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M606.5,362.5 L865.623523,362.5" id="Line" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M865.623523,362.5 L854.823523,359.5 L854.823523,365.5 L865.623523,362.5 Z" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M633.5,382.5 L892.623523,382.5" id="Line" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M892.623523,382.5 L881.823523,379.5 L881.823523,385.5 L892.623523,382.5 Z" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square"></path>
+            <path d="M767.5,113.498371 L767.5,418.867858" id="Line" stroke="#FF17F5" stroke-width="13" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>
